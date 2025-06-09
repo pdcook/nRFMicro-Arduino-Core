@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "nRFMicro-like Boards",
+      "name": "nRFMicro-like-Boards",
       "maintainer": "pdcook",
       "websiteURL": "https://github.com/pdcook/nRFMicro-Arduino-Core",
       "email": "",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Contributed",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.1",
           "category": "Contributed",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-Boards",
           "architecture": "nrf52",
           "version": "1.0.2",
           "category": "Contributed",

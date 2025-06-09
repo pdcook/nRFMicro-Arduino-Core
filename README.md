@@ -26,7 +26,13 @@ There are two methods that you can use to install this BSP. We highly recommend 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (At least v1.6.12)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json" as an 'Additional Board Manager URL'
+ 4. Add the following lines as 'Additional Board Manager URL'
+
+   ```
+    https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+    https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json
+   ```
+
  5. Restart the Arduino IDE
  6. Open the Boards Manager from the Tools -> Board menu and install 'nRFMicro Boards'
  7. Once the BSP is installed, select 'nRFMicro' or 'SuperMini nRF52840' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
