@@ -1,118 +1,26 @@
 {
   "packages": [
     {
-      "name": "nRFMicro-like Boards",
-      "maintainer": "pdcook",
-      "websiteURL": "https://github.com/pdcook/nRFMicro-Arduino-Core",
+      "name": "nRFMicro-like-boards",
+      "maintainer": "waltje",
+      "websiteURL": "https://github.com/waltje/Arduino.Core-nRFMicro",
       "email": "",
       "help": {
         "online": ""
       },
       "platforms": [
         {
-          "name": "nRFMicro-like Boards",
+          "name": "nRFMicro-like-boards",
           "architecture": "nrf52",
-          "version": "1.0.0",
+          "version": "1.1.0",
           "category": "Contributed",
           "help": {
             "online": ""
           },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core.tar.bz2",
-          "archiveFileName": "nRFMicro-Arduino-Core.tar.bz2",
-          "checksum": "SHA-256:c190cd877a1889bdc99095ebca4cce243e57e80d30b2947b166f7aeab2327921",
-          "size": "17227165",
-          "boards": [{ "name": "nRFMicro" }, { "name": "SuperMini nRF52840" }, {"name": "nice!nano v2"}],
-          "toolsDependencies": [
-                                      {
-
-                            "packager": "Seeeduino",
-
-                            "name": "arm-none-eabi-gcc",
-
-                            "version": "9-2019q4"
-
-                        },
-
-                        {
-
-                            "packager": "Seeeduino",
-
-                            "name": "nrfjprog",
-
-                            "version": "9.4.0"
-
-                        },
-
-                        {
-
-                            "packager": "Seeeduino",
-
-                            "name": "CMSIS",
-
-                            "version": "5.7.0"
-
-                        }
-
-          ]
-        },
-        {
-          "name": "nRFMicro-like Boards",
-          "architecture": "nrf52",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": ""
-          },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.1.tar.bz2",
-          "archiveFileName": "nRFMicro-Arduino-Core-1.0.1.tar.bz2",
-          "checksum": "SHA-256:6864b2a506899affe5593dc2c5c65c39273bbef6cf60971a8a33577039e6f3b6",
-          "size": "20051818",
-          "boards": [{ "name": "nRFMicro" }, { "name": "SuperMini nRF52840" }, {"name": "nice!nano v2"}],
-          "toolsDependencies": [
-                                      {
-
-                            "packager": "Seeeduino",
-
-                            "name": "arm-none-eabi-gcc",
-
-                            "version": "9-2019q4"
-
-                        },
-
-                        {
-
-                            "packager": "Seeeduino",
-
-                            "name": "nrfjprog",
-
-                            "version": "9.4.0"
-
-                        },
-
-                        {
-
-                            "packager": "Seeeduino",
-
-                            "name": "CMSIS",
-
-                            "version": "5.7.0"
-
-                        }
-
-          ]
-        },
-        {
-          "name": "nRFMicro-like Boards",
-          "architecture": "nrf52",
-          "version": "1.0.2",
-          "category": "Contributed",
-          "help": {
-            "online": ""
-          },
-          "url": "https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/nRFMicro-Arduino-Core-1.0.2.tar.bz2",
-          "archiveFileName": "nRFMicro-Arduino-Core-1.0.2.tar.bz2",
-          "checksum": "SHA-256:44d35927a60cb8a571a210ddeb9d2c5da4957ead5b143623685a8787fa1d04c9",
-          "size": "20050973",
+          "url": "https://raw.githubusercontent.com/waltje/Arduino.Core-nRFMicro/main/nRFMicro-Arduino-Core-1.1.0.tar.bz2",
+          "archiveFileName": "nRFMicro-Arduino-Core-1.1.0.tar.bz2",
+          "checksum": "SHA-256:da80e1abd50626daf36f9f640ae5afa1b1025a0d5ef516d03fe1920bcfae6c31",
+          "size": "19483474",
           "boards": [{ "name": "nRFMicro" }, { "name": "SuperMini nRF52840" }, {"name": "nice!nano v2"}],
           "toolsDependencies": [
                                       {

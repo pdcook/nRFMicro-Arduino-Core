@@ -1,6 +1,6 @@
 {
   "name": "nrfmicro-arduino",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Arduino core for nRFMicro-compatible boards",
   "keywords": [
     "arduino",
@@ -13,6 +13,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdcook/nRFMicro-Arduino-Core"
+    "url": "https://github.com/waltje/Arduino.Core-nRFMicro"
   }
 }
